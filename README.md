@@ -1,5 +1,5 @@
 ```
-#### C
+## C
 ## Structure:
 Data of different types can be grouped together under a single name using structures.
 # Declaration:
