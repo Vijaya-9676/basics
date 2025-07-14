@@ -1,8 +1,8 @@
 ```
- C
-Structure:
+#### C
+## Structure:
 Data of different types can be grouped together under a single name using structures.
-Declaration:
+# Declaration:
 struct tagname
 {
 data type member1;
@@ -16,7 +16,7 @@ Here tagname is the name of the structure.
 ->The memory is created only when the variables of the structure are declared.
 ->The member names inside a structure should be unique.
 ->The structure template can be declared globally or locally.
-Declaring structure variables:
+#Declaring structure variables:
 1.with structure declaration
 struct student
 {
@@ -32,7 +32,7 @@ char name[20];
 float marks;
 };
 struct student var1,var2;
-Initialization of structure variables:
+# Initialization of structure variables:
 The syntax of initializing is similar to arrays.
 struct student
 {
@@ -43,7 +43,7 @@ float marks;
 struct student var2={2,"Rani",67.5};
 ->we can't initialize members while defining a structure.
 ->If no.of initializers are less than the no.of members then the remaing are initialized with zero.
-Accessing members of a structure:
+# Accessing members of a structure:
 ->We can access the members of a structure using (.) operator.
 ->The dot operator is also called as period or membership operator.
 ->var1.rollno, var1.name,var1.marks.
