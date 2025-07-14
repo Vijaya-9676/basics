@@ -1,3 +1,4 @@
+```
  C
 Structure:
 Data of different types can be grouped together under a single name using structures.
@@ -59,3 +60,4 @@ int n;
 ->Here the size of this structure is 8 bytes due to padding. 
 ->Means the size of the structure is not equal to the sum of the sizes of the members.
 ->Comparing of two structures is not allowed in c due to unused bytes present in a strucure.
+```
